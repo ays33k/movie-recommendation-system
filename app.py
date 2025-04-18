@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import requests
 import pandas as pd
-from secretss import API_KEY, LANGUAGE
+# from secretss import API_KEY, LANGUAGE
 
 def fetch_poster(movie_id):
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={API_KEY}&language={LANGUAGE}"
