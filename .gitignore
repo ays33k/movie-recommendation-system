@@ -1,0 +1,7 @@
+venv
+secretss.py
+__pycache__
+myenv
+movie_dict.pkl
+movies.pkl
+similarity.pkl
